@@ -5,6 +5,7 @@ import XLSX from 'xlsx';
 import CSV from 'csv';
 import Client from 'ftp';
 import logger from './libs/logger';
+import lookupTableSearcher from './modules/LookupTableSearcher';
 
 // todo move to configs
 const host = 'http://services.serving-sys.com';
@@ -110,6 +111,8 @@ export default class App {
 
 
     await this.uploadOnFtp(csvTempFile, `${this.regions[this.order]}/html5/_bak_${csvTempFileName}`);
+    // all files ready and uploaded
+
 
   }
 

@@ -43,13 +43,16 @@ server.get('/run', (req, res) => {
   });
 
   cronApp.start(() => {
-    app.start().catch(logger.log);
+    app.start().then(() => {
+      runned = stop;
+    }).catch(logger.log);
   });
   return res.status(200).json({ message: 'Successful runned' });
 });
 
 server.get('/stop', (req, res) => {
   cronApp.stop();
+
   return res.status(200).json({ message: 'Successful stopped'});
 });
 
