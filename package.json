@@ -1,7 +1,7 @@
 {
-  "name": "csv_update",
+  "name": "toyota-kelleybluebook-backend_app",
   "version": "1.0.0",
-  "description": "daily csv file update",
+  "description": "daily csv file update - winner determination app",
   "main": "index.js",
   "scripts": {
     "start": "babel-node index.js --presets es2015,stage-2",
@@ -16,7 +16,7 @@
     "update",
     "heroku"
   ],
-  "author": "",
+  "author": "Sergey V.",
   "license": "ISC",
   "homepage": "https://bitbucket.org/wolaverdesigns/kbb_id_search_-_determine_winner_report#readme",
   "dependencies": {
