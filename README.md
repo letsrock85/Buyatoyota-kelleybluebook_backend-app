@@ -1,6 +1,12 @@
 ## Comparison App ##
 The app has been created to compare two vehicles where one of them (the boss) must be the winner. It marks each comparison by one of these: kbb; video; false
 
+
+![Image description](https://mir-s3-cdn-cf.behance.net/project_modules/1400/dc375652805295.591d231b94225.jpg)
+![Image description](https://mir-s3-cdn-cf.behance.net/project_modules/disp/0716bb52805295.591d231b93e2e.png)
+![Image description](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/72f5d052805295.591d2a3404fe3.png)
+
+
 ### Incoming Data ###
 
 #### lookupTable.xlsx ####
